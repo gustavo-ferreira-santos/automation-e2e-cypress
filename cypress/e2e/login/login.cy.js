@@ -32,7 +32,7 @@ describe('Testes de login', () => {
  // OBS: Neste caso torna-se desnecessária tanto a linha 6 onde a massa de dados é carregada em um alias, quanto o próprio json dentro da pasta fixtures visto que não será utilizado
  // Também se torna desnecessário o 'function' no beforeEach já que não haverá um 'this' dentro dos testes
 
-  it('Realizar login com sucesso dados chumbados', function() {
+  it('Realizar login com sucesso dados chumbados', () => {
     login_page.preencher_user('testeuser@gmail.com'); // preenche o campo username com o valor 'testeuser@gmail.com'
     login_page.preencher_password('5124042'); // preenche o campo password com o valor '5124042'
     login_page.click_btn_login(); // clica no botão para realizar o login
@@ -42,7 +42,7 @@ describe('Testes de login', () => {
     cy.get('#email').should('not.exist');
   });
 
-  it('Falha no login com credenciais inválidas dados chumbados', function() {
+  it('Falha no login com credenciais inválidas dados chumbados', () => {
     login_page.preencher_user('usuario_invalido@gmail.com');
     login_page.preencher_password('senha_incorreta');
     login_page.click_btn_login();
