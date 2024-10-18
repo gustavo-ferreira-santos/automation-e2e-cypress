@@ -37,6 +37,7 @@ automacao-e2e-cypress/
 ├── cypress.config.js # Configurações do Cypress
 ├── package.json      # Dependências e scripts do projeto
 └── README.md         # Documentação do projeto
+```
 
 ## Executando os Testes
 
