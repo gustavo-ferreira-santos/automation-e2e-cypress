@@ -28,14 +28,14 @@ A estrutura do projeto é a seguinte:
 
 automacao-e2e-cypress/
 ├── cypress/
-│   ├── e2e/                  # Testes E2E
-│   ├── fixtures/             # Massa de dados estáticos a serem utilizados nos testes
-│   ├── pages/                # Page objects
-│   ├── reports/              # Relatórios gerados pelos testes
-│   ├── support/              # Comandos de suporte e configurações globais
-├── cypress.config.js         # Configurações do Cypress
-├── package.json              # Dependências e scripts do projeto
-└── README.md                 # Documentação do projeto
+│   ├── e2e/          # Testes E2E
+│   ├── fixtures/     # Massa de dados estáticos a serem utilizados nos testes
+│   ├── pages/        # Page objects
+│   ├── reports/      # Relatórios gerados pelos testes
+│   └── support/      # Comandos de suporte e configurações globais
+├── cypress.config.js # Configurações do Cypress
+├── package.json      # Dependências e scripts do projeto
+└── README.md         # Documentação do projeto
 
 ## Executando os Testes
 
