@@ -1,0 +1,12 @@
+{
+  "login":{
+    "usuario_valido": {
+      "username": "testeuser@gmail.com",
+      "password": "5124042"
+    },
+    "usuario_invalido": {
+      "username": "usuario_invalido@gmail.com",
+      "password": "senha_incorreta"
+    }
+  }
+}
