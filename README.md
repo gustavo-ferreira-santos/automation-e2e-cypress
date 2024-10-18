@@ -26,6 +26,7 @@ Como todas as dependências já estão listadas no arquivo `package.json`, simpl
 
 A estrutura do projeto é a seguinte:
 
+```plaintext
 automacao-e2e-cypress/
 ├── cypress/
 │   ├── e2e/          # Testes E2E
