@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - pipe-test
 
 jobs:
   test:
@@ -12,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18]  # Defina a versão do Node.js que você quer usar
+        node-version: [18]
 
     steps:
       - name: Checkout code
